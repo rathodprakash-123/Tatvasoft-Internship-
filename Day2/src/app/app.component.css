@@ -1,0 +1,52 @@
+div {
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  margin-top:1rem;
+  width: 600px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+form input,
+form textarea {
+  padding: 0.9rem 1rem;
+  border: 1px solid #ccc;
+  font-family: 'Poppins';
+  border-radius: 12px;
+  font-size: 1rem;
+  resize: vertical;
+  transition: border 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: 	#313131;
+  outline: none;
+  background-color: #fff;
+}
+
+form button {
+  background-color: 	#313131;
+  color: 	#f9fafc;
+  border: none;
+  padding: 0.9rem;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #f3f5f2;
+  color: 	#313131;
+  font-weight:530;
+}

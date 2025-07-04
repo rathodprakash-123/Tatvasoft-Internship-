@@ -1,0 +1,13 @@
+<div>
+  <h1>Login page</h1>
+<form action="" method="post">
+  <input type="text" placeholder="Enter Username" [formControl] ="name">
+  <br>
+  <br>
+  <input type="password" placeholder="Enter password" [formControl]="name">
+  <br><br>
+  <button>Login</button>
+  <br><br>
+  <h3>{{name.value}}</h3>
+</form>
+</div>
